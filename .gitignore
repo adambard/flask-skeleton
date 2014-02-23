@@ -1,0 +1,5 @@
+.env
+*.pyc
+
+.webassets-cache
+bower_components

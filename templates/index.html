@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Hello Flask</title>
+        {% assets "css_all" %}
+            <link rel="stylesheet" type="text/css" href="{{ ASSET_URL }}"></script>
+        {% endassets %}
+    <head>
+    <body>
+        <h1>Hello Flask</h1>
+        {% assets "js_all" %}
+            <script type="text/javascript" src="{{ ASSET_URL }}"></script>
+        {% endassets %}
+    </body>
+</html>
+

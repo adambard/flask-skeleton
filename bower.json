@@ -1,0 +1,28 @@
+{
+  "name": "flask-skeleton",
+  "version": "0.0.0",
+  "authors": [
+    "Adam <adam@adambard.com>"
+  ],
+  "description": "A sample starting point for Flask applications using webassets for Coffeescript and Sass",
+  "main": "app.py",
+  "keywords": [
+    "Flask",
+    "python",
+    "webassets",
+    "coffeescript",
+    "sass"
+  ],
+  "license": "MIT",
+  "homepage": "http://adambard.com/",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.0"
+  }
+}

@@ -1,0 +1,1 @@
+alert "Coffeescript works too!"
